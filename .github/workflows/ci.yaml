@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run:
-          echo Installing Dependencies (Clean Install)
+          echo "Installing Dependencies (Clean Install)"
           npm ci
 
       - name: Run tests
